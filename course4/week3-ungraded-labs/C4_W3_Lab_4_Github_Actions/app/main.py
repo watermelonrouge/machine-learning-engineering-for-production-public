@@ -4,7 +4,7 @@ from typing import List
 from fastapi import FastAPI
 from pydantic import BaseModel, conlist
 
-# fast API prediction server, baby
+# fast API prediction server, baby...
 app = FastAPI(title='Predicting Wine Class with batching')
 
 # Open classifier in global scope
